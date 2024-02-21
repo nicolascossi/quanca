@@ -76,7 +76,7 @@
         <ul>
           <ul>
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="classes.html">Catalogo Palas</a></li>
+            <li><a href="#seccion3" onclick="scrollToSection('seccion3')">Catalogo Palas</a></li>
     
           </ul>
       </ul>
@@ -105,7 +105,7 @@
       <ul>
         <ul>
           <li><a href="index.html">Inicio</a></li>
-          <li><a href="classes.html">Catalogo Palas</a></li>
+          <li><a href="#seccion3" onclick="scrollToSection('seccion3')">Catalogo Palas</a></li>
   
         </ul>
       </ul>
@@ -254,7 +254,7 @@
 <!-- end content-section -->
 
 <!-- end content-section -->
-<section class="content-section">
+<section class="content-section height" id="seccion3">
   <div class="container">
     <div class="row">
 	 <div class="col-12">
@@ -406,6 +406,14 @@
 	<!-- end footer -->
 
 <!-- JS FILES --> 
+<script>
+  function scrollToSection(sectionId) {
+  var section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+</script>
 <script src="js/jquery.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/fancybox.min.js"></script> 

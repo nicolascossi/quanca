@@ -543,7 +543,7 @@ button[type="submit"] i {
   z-index: 99;
   right: 0;
   top: 0;
-  background: #f42828;
+  background: black;
   transition-duration: 1s;
   -webkit-transition-duration: 1s;
   transition-timing-function: cubic-bezier(0.86, 0, 0.09, 1);
@@ -809,12 +809,12 @@ button[type="submit"] i {
   display: flex;
   flex-wrap: wrap;
   background: #0d0d0d;
-  padding: 10px 0;
+  padding: 30px 0;
   color: #fff;
 }
 .topbar div {
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Barlow', sans-serif;
 }
 .topbar div b {
@@ -827,6 +827,7 @@ button[type="submit"] i {
   display: inline-block;
   color: #fff;
 }
+
 
 /* NAVBAR */
 .navbar {
